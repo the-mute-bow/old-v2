@@ -136,7 +136,7 @@ const setScreen = (newmode, data) => {
 		if (mode == 'touch-screen') {
 			gif_text.innerHTML = lang == '#fr' ? "Touche l'écran." : 'Touch the screen.';
 			setTimeout(() => {
-				over.onclick = () => can.requestFullscreen().catch(error => {});
+				over.onclick = () => document.body.requestFullscreen().catch(error => {});
 			}, 500);
 		}
 
