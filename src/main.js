@@ -1,5 +1,3 @@
-if (location.host == 'the-mute-bow.github.io') location.replace('https://the-mute-bow.com');
-
 let onAndroid = /Android/i.test(navigator.userAgent);
 
 let version = '1.2.1b';
