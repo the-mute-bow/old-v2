@@ -21,6 +21,7 @@ body {
 canvas {
   background-color: #202124;
   position: absolute;
+  width: 100%;
 }
 
 a {
