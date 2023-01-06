@@ -264,7 +264,7 @@ window.onload = () => {
 			if (!getCookie('coins')) setCookie('coins', 0);
 
 			initTouch();
-			loadPage(lang == '#dev' ? 'drm1' : 'menu');
+			loadPage(lang == '#dev' ? 'test' : 'menu');
 			mainloop();
 		}
 	} else setScreen('android');

@@ -479,8 +479,7 @@ class Human extends Mob {
 				x = Math.floor(x);
 				y = Math.floor(y);
 				z = Math.floor(z);
-				let sprite = this.sprites[sprite_name];
-				sprite.draw(ctx, { x: x, y: y, z: z });
+				this.sprites[sprite_name]?.draw(ctx, { x: x, y: y, z: z });
 			}
 		}
 	}
